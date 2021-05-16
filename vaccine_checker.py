@@ -3,7 +3,7 @@ from PIL import Image
 from fake_useragent import UserAgent
 import requests
 import pandas as pd
-import base64
+
 
 ua = UserAgent()
 header = {'User-Agent' : str(ua.chrome)}
@@ -12,7 +12,7 @@ def run():
     img1 = Image.open('vac.png')
     img1 = img1.resize((640,640))
     st.image(img1,use_column_width=False)
-    st.title("CoWin Vaccination Centre Checker")
+    st.title("CoWin Vaccination Center Checker")
 
     st.markdown("<h4 style='text-align: left; color: red;'>* Data is based on Government API</h4>",
                 unsafe_allow_html=True)
