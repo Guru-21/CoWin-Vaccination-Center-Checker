@@ -1,1 +1,1 @@
-# CoWin-Vaccination-Center-Checker
+# CoWin-Vaccination-Centers-Checker
