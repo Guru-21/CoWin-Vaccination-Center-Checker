@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run vaccine_checker.py
+web: sh setup.sh && streamlit run app.py
