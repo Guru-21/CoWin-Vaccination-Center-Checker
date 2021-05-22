@@ -3,3 +3,4 @@ fake_useragent
 requests
 pandas
 Pillow==8.2.0
+datetime
