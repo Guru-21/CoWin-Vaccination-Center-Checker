@@ -4,3 +4,4 @@ requests
 pandas
 Pillow==8.2.0
 datetime
+pip ==21.1.2
